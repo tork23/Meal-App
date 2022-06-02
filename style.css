@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* Navigation Bar */
+nav{
+    height: 60px;
+    background-color:orange;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#search-bar{
+    max-width:600px;
+}
+
+#search-bar input{
+    height: 40px;
+    border-radius: 2rem;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    /* background-image: linear-gradient(to right, rgb(61, 58, 58), grey); */
+    color: white;
+}
+
+/* Card */
+#card {
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-header{
+    color:white;
+    background-color:green;
+}
+
+i:hover{
+    color: red;
+}
+
+/* Container of Recipe Details */
+#details-container{
+    background-color: orange;
+    border: 1px solid white;
+}
+
+#watch-btn{
+    margin-top: 7rem;
+    padding: 4px;
+}
+
+#youtube{
+    padding: 5px;
+    color:black;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid blue;
+    border-radius: 1rem;
+}
+#meal-image{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+
+/* Ingredient list */
+.tileMe li{
+    display: inline;
+    float: left;
+}
+
+#ingredients{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+/* Favourites list */
+#favourites-list{
+    background-image:linear-gradient(to right, rgb(61, 58, 58), grey);
+}
+
+#fav-header{
+    background-color: orange;
+}
+
+#meal-thumbail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
